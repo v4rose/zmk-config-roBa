@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))                    &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp COLON                        &kp QUESTION   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG5  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &kp RIGHT_SHIFT
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp COLON                &kp QUESTION   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 INT2    &kp BACKSPACE  &lt 1 ENTER                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PAGE_UP>;
@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp LANGUAGE_5       &kp LANG5  &kp LANG_ZENKAKUHANKAKU  &kp LANGUAGE_4     &kp LANG4                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp INTERNATIONAL_1  &kp INT1   &kp INT_RO               &kp LANG4          &kp LANG7  &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp INTERNATIONAL_5  &kp INT5   &kp INT_MUHENKAN         &kp LANG_HIRAGANA  &kp LANG8  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&kp LANG_HIRAGANA    &kp LANG4  &trans                   &kp LANGUAGE_9     &kp LANG9  &trans    &trans  &trans                          &kp F12
+&kp LANGUAGE_5       &kp LANG5  &kp LANG_ZENKAKUHANKAKU  &kp LANGUAGE_4     &kp LANGUAGE_2                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp INTERNATIONAL_1  &kp INT1   &kp INT_RO               &kp LANG4          &kp LANG2       &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp INTERNATIONAL_5  &kp INT5   &kp INT_MUHENKAN         &kp LANG_HIRAGANA  &kp LANG_HANJA  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
+&kp LANG_HIRAGANA    &kp LANG4  &trans                   &kp LANGUAGE_9     &kp LANG9       &trans    &trans  &trans                          &kp F12
             >;
         };
 
