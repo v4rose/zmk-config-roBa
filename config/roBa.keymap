@@ -70,7 +70,7 @@
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                  &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                      &kp QUESTION   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PAGE_UP>;
@@ -78,18 +78,18 @@
 
         FUNCTION {
             bindings = <
-&kp LANGUAGE_5       &kp LANG5  &kp LANG_ZENKAKUHANKAKU  &kp LANGUAGE_4     &kp LANGUAGE_2                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp LANGUAGE_1       &kp LANG1  &kp INT_RO               &kp LANG4          &kp LANG2       &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp INTERNATIONAL_5  &kp INT5   &kp INT_MUHENKAN         &kp LANG_HIRAGANA  &kp LANG_HANJA  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&kp LANG_HIRAGANA    &kp LANG4  &trans                   &kp LANGUAGE_9     &kp LANG9       &trans    &trans  &trans                          &kp F12
+&kp ESC           &kp F1        &kp F2        &kp F3          &kp F4                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp TAB           &kp F5        &kp F6        &kp F7          &kp F8     &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp LEFT_SHIFT    &kp F9        &kp F10       &kp F11         &kp F12    &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LANGUAGE_9  &kp LANG9  &trans    &trans  &trans                          &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                   &kp N7  &kp N8  &kp N9  &kp PLUS                                                 &kp CARET         &kp LA(LEFT)  &kp TILDE       &kp LA(RIGHT_ARROW)  &kp RIGHT_PARENTHESIS
+&kp MINUS                   &kp N7  &kp N8  &kp N9  &kp PLUS                                                 &kp CARET         &kp LA(LEFT)  &kp TILDE       &kp LA(RIGHT_ARROW)  &kp BACKSPACE
 &kp SLASH                   &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1      &mkp MB3        &mkp MB2             &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                  &kp AT_SIGN     &kp LEFT_BRACKET  &kp LC(C)     &kp LEFT_BRACE  &kp LC(V)            &kp BACKSLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                  &kp AT_SIGN     &kp LEFT_BRACKET  &kp LC(C)     &kp LEFT_BRACE  &kp LC(V)            &kp QMARK
 &trans                      &kp N0  &trans  &trans  &trans        &trans                     &trans          &trans                                                               &kp UNDER
             >;
         };
