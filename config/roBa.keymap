@@ -1,7 +1,8 @@
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
 #define SCROLL 5
@@ -87,10 +88,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp N7  &kp N8  &kp N9  &kp PLUS                                                 &kp CARET         &kp LA(LEFT)  &kp TILDE       &kp LA(RIGHT_ARROW)  &kp BACKSPACE
-&kp SLASH                   &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1      &mkp MB3        &mkp MB2             &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                  &kp AT_SIGN     &kp LEFT_BRACKET  &kp LC(C)     &kp LEFT_BRACE  &kp LC(V)            &kp QMARK
-&trans                      &kp N0  &trans  &trans  &trans        &trans                     &trans          &trans                                                               &kp UNDER
+&kp MINUS                   &kp N7  &kp N8  &kp N9  &kp PLUS                                                 &kp CARET         &kp LA(LEFT)  &kp TILDE  &kp LA(RIGHT_ARROW)  &kp BACKSPACE
+&kp SLASH                   &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1      &mkp MB3   &mkp MB2             &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                  &kp AT_SIGN     &kp LEFT_BRACKET  &kp LC(C)     &kp LC(X)  &kp LC(V)            &kp QMARK
+&trans                      &kp N0  &trans  &trans  &trans        &trans                     &trans          &trans                                                          &kp UNDER
             >;
         };
 
