@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp MINUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp CARET         &kp LS(LC(TAB))  &kp TILDE  &kp LC(TAB)  &kp BACKSPACE
-&kp SLASH       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1         &mkp MB3   &mkp MB2     &kp PERCENT
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp LC(C)        &kp LC(X)  &kp LC(V)    &kp BACKSLASH
-&trans          &kp NUMBER_0  &trans        &trans        &trans        &trans                       &trans          &trans                                                     &kp PIPE
+&kp MINUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp CARET         &kp LC(Z)  &kp TILDE  &kp LC(Y)  &kp BACKSPACE
+&kp SLASH       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1   &mkp MB3   &mkp MB2   &kp PERCENT
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp QUESTION    &kp LEFT_BRACKET  &kp LC(C)  &kp LC(X)  &kp LC(V)  &kp BACKSLASH
+&trans          &kp NUMBER_0  &trans        &trans        &trans        &trans                       &trans          &trans                                             &kp PIPE
             >;
         };
 
