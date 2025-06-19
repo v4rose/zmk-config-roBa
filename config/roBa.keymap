@@ -11,9 +11,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    // 以下の behaviors ブロック全体を削除しました。
-    // lt_to_layer_0 の定義は不要です。
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -22,7 +19,7 @@
 &kp Q             &kp W           &kp E           &kp R                           &kp T                                   &kp Y      &kp U  &lt MO(5) &kp I    &kp O    &kp P
 &kp A             &kp S           &kp D           &kp F                           &kp G      &lt MO(1) &kp ESC                  &kp MINUS    &kp H      &kp J  &kp K      &kp L    &mt RSHIFT SQT
 &mt LEFT_SHIFT Z  &kp X           &kp C           &kp V                           &kp B      &kp TAB                       &kp QUESTION   &kp N      &kp M  &kp COMMA  &kp DOT  &mt RCTRL SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt MO(5) &kp LANG2  &lt 2 SPACE  &lt MO(3) &kp LANG1       &kp BACKSPACE  &kp ENTER                                            &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt MO(5) &kp LANG_2  &lt 2 SPACE  &lt MO(3) &kp LANG_1       &kp BACKSPACE  &kp ENTER                                            &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
