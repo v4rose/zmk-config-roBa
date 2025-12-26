@@ -19,19 +19,20 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-    normal {
-        layers = <0>;
-        input-processors = <&zip_xy_scaler 1 1>;
-    };
+        normal {
+            layers = <0>;
+            input-processors = <&zip_xy_scaler 1 1>;
+        };
 
-    slow {
-        layers = <2>;
-        input-processors = <&zip_xy_scaler 1 4>;
-    };
+        slow {
+            layers = <2>;
+            input-processors = <&zip_xy_scaler 1 4>;
+        };
 
-    fast {
-        layers = <3>;
-        input-processors = <&zip_xy_scaler 3 1>;
+        fast {
+            layers = <3>;
+            input-processors = <&zip_xy_scaler 3 1>;
+        };
     };
 };
 
