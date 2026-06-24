@@ -69,7 +69,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1      &kp BACKSPACE  &kp ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
